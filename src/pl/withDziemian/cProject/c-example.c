@@ -1,7 +1,15 @@
 #include <stdio.h>
 int main()
 {
-   // printf() displays the string inside quotation
-   printf("Hello, World!");
+
+	char xArray[9][9];
+	for (int i = 0; i < 10; ++i){
+		int j;
+		xArray[i][j] = 'X';
+			
+			for (j; i < 10; ++j){
+			xArray[i][j] = 'X';
+			}
+	}
    return 0;
 }
